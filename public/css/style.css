@@ -1,0 +1,105 @@
+/* Mengatur tampilan halaman agar berada di tengah */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Judul login */
+form h1 {
+    text-align: left !important;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 1px;
+}
+
+/* Subtitle atau teks tambahan */
+form p {
+    text-align: left !important;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Form label dan input */
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Tombol login */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff !important;
+    color: gray;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #ffffff !important;
+    color: white !important;
+}
+
+/* Link */
+form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Transisi halus */
+}
+
+.card:hover {
+    background-color: darkgray; /* Latar belakang berubah */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar */
+    transform: scale(1.1); /* Sedikit diperbesar */
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Agar navbar berada di atas konten lainnya */
+    width: 100%;
+    background-color: gray !important; /* Atur latar belakang navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opsional, memberikan bayangan */
+}
+
+
+/* Gambar logo di atas tulisan Login */
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Gambar di tengah dan memberi jarak bawah */
+    width: 100px; /* Ukuran gambar */
+    height: 100px; /* Ukuran gambar */
+}
+
+
+
+
+
